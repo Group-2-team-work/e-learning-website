@@ -1,5 +1,16 @@
 E-Learning Website README
+
+IMPORTANT NOTES
+1. Running your tailwind; run "npm run dev"
+2. Icons and images are in the assets folder
+3. Do not edit the already prepared utilities
+4, Before pushing a code, create your own branch. Don't push a code to the main branch.
+5. Raise a pull request when done
+6. Use this hex-code for your green color ("#1A906B")
+
+
 Project Overview
+
 
 This project is a modern and responsive E-Learning Website UI/UX design created in Figma. The platform is designed to provide students, instructors, and online learners with an engaging digital learning experience through clean layouts, intuitive navigation, and conversion-focused sections.
 
