@@ -19,3 +19,8 @@ body{
 nav ul li a:focus{
    color: #1A906B;
 }
+table tr th, table tr td{
+    padding: 6px;
+    text-align: center;
+   
+}
