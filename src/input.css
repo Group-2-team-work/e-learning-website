@@ -11,5 +11,7 @@
 body{
     font-family: var(--font-Inter);
     color: greeno;
+    padding-left: 2%;
+    padding-right: 2%;
 }
 /* =============== DO NOT TOUCH FROM UPWARDS ================= */
