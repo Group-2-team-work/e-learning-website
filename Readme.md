@@ -7,6 +7,7 @@ IMPORTANT NOTES
 4, Before pushing a code, create your own branch. Don't push a code to the main branch.
 5. Raise a pull request when done
 6. Use this hex-code for your green color ("#1A906B")
+7. Add your node_modules to the .gitignore file
 
 
 Project Overview
