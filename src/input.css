@@ -7,10 +7,9 @@
 }
 @theme{
     --font-Inter: "Inter", sans-serif;
-    --color-greeno:;
 }
 body{
     font-family: var(--font-Inter);
     color: greeno;
 }
-
+/* =============== DO NOT TOUCH FROM UPWARDS ================= */
