@@ -15,3 +15,7 @@ body{
     padding-right: 2%;
 }
 /* =============== DO NOT TOUCH FROM UPWARDS ================= */
+
+nav ul li a:focus{
+   color: #1A906B;
+}
