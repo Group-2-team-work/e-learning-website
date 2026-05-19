@@ -22,5 +22,9 @@ nav ul li a:focus{
 table tr th, table tr td{
     padding: 6px;
     text-align: center;
-   
+}
+.div1-bg{
+    background-image: url(../assets/images/spiral-bg.png);
+    background-repeat: none;
+    background-position-x:0rem;
 }
