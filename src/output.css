@@ -25,7 +25,12 @@
     --text-sm: 0.875rem;
     --text-sm--line-height: calc(1.25 / 0.875);
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
 <<<<<<< HEAD
+=======
+    --text-3xl: 1.875rem;
+    --text-3xl--line-height: calc(2.25 / 1.875);
+>>>>>>> Stashed changes
 =======
     --text-3xl: 1.875rem;
     --text-3xl--line-height: calc(2.25 / 1.875);
@@ -288,7 +293,13 @@
     display: grid;
   }
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
 <<<<<<< HEAD
+=======
+  .table {
+    display: table;
+  }
+>>>>>>> Stashed changes
 =======
   .table {
     display: table;
@@ -362,11 +373,14 @@
     width: 100%;
   }
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
 <<<<<<< HEAD
 =======
   .max-w-5xl {
     max-width: var(--container-5xl);
   }
+=======
+>>>>>>> Stashed changes
 =======
 >>>>>>> Stashed changes
   .border-collapse {
@@ -376,10 +390,13 @@
     resize: both;
   }
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
   .grid-cols-1 {
     grid-template-columns: repeat(1, minmax(0, 1fr));
   }
 >>>>>>> 33e153e837f61c90fc2bce60c9274e556ee44d02
+=======
+>>>>>>> Stashed changes
 =======
 >>>>>>> Stashed changes
   .grid-cols-2 {
@@ -678,11 +695,14 @@
     color: var(--color-white);
   }
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
 <<<<<<< HEAD
 =======
   .uppercase {
     text-transform: uppercase;
   }
+=======
+>>>>>>> Stashed changes
 =======
 >>>>>>> Stashed changes
   .underline {
@@ -693,7 +713,10 @@
     outline-width: 1px;
   }
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
 >>>>>>> 33e153e837f61c90fc2bce60c9274e556ee44d02
+=======
+>>>>>>> Stashed changes
 =======
 >>>>>>> Stashed changes
   .outline-0 {
@@ -814,6 +837,17 @@
       font-size: var(--text-4xl);
       line-height: var(--tw-leading, var(--text-4xl--line-height));
 >>>>>>> 33e153e837f61c90fc2bce60c9274e556ee44d02
+    }
+  }
+  .lg\:pl-20 {
+    @media (width >= 64rem) {
+      padding-left: calc(var(--spacing) * 20);
+    }
+  }
+  .lg\:text-6xl {
+    @media (width >= 64rem) {
+      font-size: var(--text-6xl);
+      line-height: var(--tw-leading, var(--text-6xl--line-height));
     }
   }
   .lg\:pl-20 {
