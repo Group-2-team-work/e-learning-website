@@ -77,6 +77,188 @@
             </div>
 
         </section>
+<!-- Tailwind CSS -->
+  <script src="https://cdn.tailwindcss.com"></script>
+
+  <style>
+    body {
+      font-family: Arial, Helvetica, sans-serif;
+      background: #ffffff;
+    }
+
+    .benefit-card {
+      background: #f3f8f6;
+      border: 1px solid #edf1ef;
+      transition: all 0.3s ease;
+      position: relative;
+      overflow: hidden;
+    }
+
+    .benefit-card:hover {
+      transform: translateY(-4px);
+      box-shadow: 0 10px 25px rgba(0,0,0,0.05);
+    }
+
+    .number-badge {
+      position: absolute;
+      top: 12px;
+      left: 12px;
+      width: 38px;
+      height: 38px;
+      background: #edf7f2;
+      color: #1dbb73;
+      font-size: 18px;
+      font-weight: 500;
+      border-radius: 50%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+
+    .read-more {
+      color: #16b46b;
+      font-weight: 500;
+      text-decoration: none;
+    }
+
+    .read-more:hover {
+      text-decoration: underline;
+    }
+  </style>
+</head>
+<body>
+
+  <section class="w-full py-10 px-4 sm:px-6 lg:px-8">
+    <div class="max-w-6xl mx-auto">
+
+      <!-- Top Heading -->
+      <div class="text-center mb-12">
+        <p class="text-[#18b46b] text-[22px] font-semibold mb-2">
+          Our Benefits
+        </p>
+
+        <h1 class="text-[34px] md:text-[52px] leading-[1.15] font-bold text-[#1d1d1d] max-w-5xl mx-auto">
+          By Joining WEEKENS UX Platform,<br />
+          One Can Avail a Lot Of Benefits.
+        </h1>
+
+        <p class="text-[#777] text-[14px] md:text-[15px] mt-5 max-w-2xl mx-auto leading-7">
+          Install our top-rated dropshipping app to your e-commerce site and get
+          access to US Suppliers, AliExpress vendors, and the best.
+        </p>
+      </div>
+
+      <!-- Cards Grid -->
+      <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-5">
+
+        <!-- Card 1 -->
+        <div class="benefit-card rounded-md p-8 pt-16 min-h-[245px]">
+          <div class="number-badge">01</div>
+
+          <h3 class="text-[30px] font-medium text-[#222] mb-4">
+            Standardization
+          </h3>
+
+          <p class="text-[#666] text-[15px] leading-7">
+            When working in a global workplace, it’s often difficult to gauge
+            learners’ training experiences, which are ...
+            <a href="#" class="read-more">Read More</a>
+          </p>
+        </div>
+
+        <!-- Card 2 -->
+        <div class="benefit-card rounded-md p-8 pt-16 min-h-[245px] bg-white">
+          <div class="number-badge">02</div>
+
+          <h3 class="text-[30px] font-medium text-[#222] mb-4">
+            Reduced Costs
+          </h3>
+
+          <p class="text-[#666] text-[15px] leading-7">
+            With Weekend UX, there’s no cost to reproduce materials and, thanks
+            to mobile learning and microlearning ...
+            <a href="#" class="read-more">Read More</a>
+          </p>
+        </div>
+
+        <!-- Card 3 -->
+        <div class="benefit-card rounded-md p-8 pt-16 min-h-[245px]">
+          <div class="number-badge">03</div>
+
+          <h3 class="text-[30px] font-medium text-[#222] mb-4">
+            More Customization
+          </h3>
+
+          <p class="text-[#666] text-[15px] leading-7">
+            just like learners aren’t one-size-fits-all, learning is not a
+            one-size-fits-all experience. By using different ...
+            <a href="#" class="read-more">Read More</a>
+          </p>
+        </div>
+
+        <!-- Card 4 -->
+        <div class="benefit-card rounded-md p-8 pt-16 min-h-[245px] bg-white">
+          <div class="number-badge">04</div>
+
+          <h3 class="text-[30px] font-medium text-[#222] mb-4">
+            Affordable Pricing
+          </h3>
+
+          <p class="text-[#666] text-[15px] leading-7">
+            With Weekend UX, there’s no cost to reproduce materials and, thanks
+            to mobile learning and microlearning ...
+            <a href="#" class="read-more">Read More</a>
+          </p>
+        </div>
+
+        <!-- Card 5 -->
+        <div class="benefit-card rounded-md p-8 pt-16 min-h-[245px]">
+          <div class="number-badge">05</div>
+
+          <h3 class="text-[30px] font-medium text-[#222] mb-4">
+            Learner Satisfaction
+          </h3>
+
+          <p class="text-[#666] text-[15px] leading-7">
+            If you really want students to retain what they learn, you'll need
+            to aim for high satisfaction rates. Bad ...
+            <a href="#" class="read-more">Read More</a>
+          </p>
+        </div>
+
+        <!-- Card 6 -->
+        <div class="benefit-card rounded-md p-8 pt-16 min-h-[245px] bg-white">
+          <div class="number-badge">06</div>
+
+          <h3 class="text-[30px] font-medium text-[#222] mb-4">
+            Multimedia Materials
+          </h3>
+
+          <p class="text-[#666] text-[15px] leading-7">
+            One of the main reasons why custom eLearning is effective is that
+            it’s the perfect delivery method for ...
+            <a href="#" class="read-more">Read More</a>
+          </p>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <script>
+    // Optional hover animation enhancement
+    const cards = document.querySelectorAll('.benefit-card');
+
+    cards.forEach(card => {
+      card.addEventListener('mouseenter', () => {
+        card.style.transform = 'translateY(-5px)';
+      });
+
+      card.addEventListener('mouseleave', () => {
+        card.style.transform = 'translateY(0)';
+      });
+    });
+  </script>
 
 
     </main>
