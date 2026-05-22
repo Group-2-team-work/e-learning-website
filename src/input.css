@@ -10,9 +10,6 @@
 }
 body{
     font-family: var(--font-Inter);
-    color: greeno;
-    padding-left: 2%;
-    padding-right: 2%;
 }
 /* =============== DO NOT TOUCH FROM UPWARDS ================= */
 
@@ -41,3 +38,44 @@ table tr th, table tr td{
     background-position-y:-13rem;
     background-position-x:64rem;
 }
+
+/* about us page */
+
+    .benefit-card {
+      background: #f3f8f6;
+      border: 1px solid #edf1ef;
+      transition: all 0.3s ease;
+      position: relative;
+      overflow: hidden;
+    }
+
+    .benefit-card:hover {
+      transform: translateY(-4px);
+      box-shadow: 0 10px 25px rgba(0,0,0,0.05);
+    }
+
+    .number-badge {
+      position: absolute;
+      top: 12px;
+      left: 12px;
+      width: 38px;
+      height: 38px;
+      background: #edf7f2;
+      color: #1dbb73;
+      font-size: 18px;
+      font-weight: 500;
+      border-radius: 50%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+
+    .read-more {
+      color: #16b46b;
+      font-weight: 500;
+      text-decoration: none;
+    }
+
+    .read-more:hover {
+      text-decoration: underline;
+    }
