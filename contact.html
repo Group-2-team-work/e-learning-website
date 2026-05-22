@@ -7,11 +7,11 @@
     <title>Document</title>
 </head>
 <body>
-     <header>
-       <div class="pt-10 flex justify-between items-center px-16">
+    <header>
+       <div class="pt-5 lg:pt-10 flex justify-between items-center lg:px-16">
          <img src="assets/images/logo.png" alt="">
         <nav class="flex justify-between gap-20 items-center">
-            <div class="flex gap-10 border border-gray-400 rounded-xl p-1 pl-5 justify-between items-center">
+            <div class="flex max-lg:hidden gap-10 border border-gray-400 rounded-xl p-1 pl-5 justify-between items-center">
                 <img src="assets/icons/search.png" alt="">
                 <div>
                     <input type="text" placeholder="Want to learn?" class="outline-0">
@@ -20,33 +20,82 @@
                     <p>Explore </p><img src="assets/icons/down-chevron.png" alt="">
                 </div>
             </div>
-        <ul class="flex justify-center font-semibold items-center gap-5">
+        <ul class="flex justify-center font-semibold items-center lg:gap-5 gap-1 max-lg:underline">
             <li><a href="index.html">Home</a></li>
             <li><a href="about-us.html">About Us</a></li>
-            <li><a href="#">Courses</a></li>
+            <li class="max-lg:hidden"><a href="#">Courses</a></li>
             <li><a href="contact.html">Contact us</a></li>
-            <li><a href="#">FAQ's</a></li>
+            <li class="max-lg:hidden"><a href="#">FAQ's</a></li>
         </ul>
         <div class="flex justify-between gap-5 font-semibold items-center">
             <ul>
-                <li><a href="#">Sign in</a></li>
+                <li class="max-lg:hidden"><a href="#">Sign in</a></li>
             </ul>
-            <button type="button" class="bg-[#1A906B] p-2 px-5 rounded-lg text-white">Create free account</button>
+            <button type="button" class="bg-[#1A906B] p-2 px-5 rounded-lg max-lg:hidden text-white">Create free account</button>
         </div>
     </nav>
        </div>
     </header>
     <main>
+        <section class="border-0 mt-[150px] mb-[200px] mx-[100px] rounded-[6px] shadow-gray-500 shadow-2xl">
+            <div class="text-[#1A906B] font-bold text-center pt-[50px] pb-[50px] text-2xl underline underline-offset-4">
+                CONTACT US
+            </div>
+            <div class="flex justify-around">
+                <div class="grid gap-7 ml-[200px]">
+                <div class="relative top-[30px] font-bold">
+                    <p>Leave us a message</p>
+                </div>
+                <div class="border-2 border-gray-400 mt-7 pl-5 rounded-[6px] pb-[2px]  pt-1 text-[20px] w-[400px]">
+                    <label for="name" class="pt-2">Name <br></label>
+                    <input type="text" name="" id="name" placeholder="First-name Last-name" class="outline-0">
+                </div>
+                <div class="border-2 border-gray-400 mb-[20px] rounded-[6px] pb-[2px] pl-5 pt-1 text-[20px]">
+                <input type="email" name="" id="Email" placeholder="Email Address" class="outline-0">
+                </div>
 
+                <div class="border-2 border-gray-400 mt[2px] rounded-[6px]  text-left pl-5 pb-[2px]  pt-1 text-[20px]">
+                    <textarea name="" class="outline-0 h-[220px]" placeholder="Your message" id=""></textarea>
+                </div>
+                <div class="bg-[#1A906B] text-white rounded-[6px] h-10 text-center p-2 font-bold text-[20px] mb-[100px] mt-[50px]">
+                    <button>Send</button>
+                </div>
+            </div>
+                <div class="text-left text-xl pt-[100px]">
+                    <p>Weekend UX B 37/3 Ground Floor <br> Double StoryRamesh Nagar , Near Raja Garden <br> Chowk.Delhi: 110015</p> <br>
+                    <p class="underline">+91 9599272754</p> <br>
+                    <p>hello@info.com.ng</p>
+                    <div class="flex gap-[20px] pt-4">
+                        <img src="assets/icons/Youtube.png" alt="">
+                        <img src="assets/icons/Instagram.png" alt="">
+                        <img src="assets/icons/fb.png" alt="">
+                        <img src="assets/icons/twitter.png" alt="">
+                    </div>
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d8070397.754335925!2d3.36564136569894!3d9.006711005544924!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x104e0baf7da48d0d%3A0x99a8fe4168c50bc8!2sNigeria!5e0!3m2!1sen!2sng!4v1779454588853!5m2!1sen!2sng" width="400" height="190" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade" class="mt-[50px]"></iframe>
+                </div>
+            </div>
+            <div>
+                <img src="assets/images/Group 71.png" alt="">
+                
+            </div>
+        </section>
+        <div class="flex justify-between relative top-20 -z-10">
+            <div>
+                <img src="assets/images/Group 81.png" alt="">
+            </div>
+            <div>
+                <img src="assets/images/Group 82.png" alt="">
+            </div>
+        </div>
     </main>
-    <footer class="bg-[#101828] p-16 text-white">
-        <div class="grid grid-cols-4 justify-center">
+    <footer class="bg-[#101828] max-lg:px-10 max-lg:py-16 max-lg:leading-10 lg:p-16 text-white">
+        <div class="lg:grid grid-cols-4 justify-center">
             <div class="space-y-10">
                 <img src="assets/images/logo.png" alt="">
                 <p>Top learning experiences that create more talent in the world.</p>
             </div>
             <div class="col-span-3">
-                <table class=" w-full p-[80px]">
+                <table class=" w-full lg:p-[80px]">
                     <tr class="text-gray-400">
                         <th>Product</th>
                         <th>Company</th>
@@ -83,7 +132,7 @@
                 </table>
             </div>
         </div>
-           <div class="flex justify-between items-center">
+           <div class="lg:flex justify-between items-center">
                 <p class="text-gray-400">&copy;2022 Ed-Circle. All rights reserved</p>
                 <div class="flex justify-between gap-10 items-center">
                     <img src="assets/icons/twitter.png" alt="">

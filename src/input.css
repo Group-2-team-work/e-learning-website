@@ -10,9 +10,6 @@
 }
 body{
     font-family: var(--font-Inter);
-    color: greeno;
-    padding-left: 2%;
-    padding-right: 2%;
 }
 /* =============== DO NOT TOUCH FROM UPWARDS ================= */
 
@@ -22,5 +19,22 @@ nav ul li a:focus{
 table tr th, table tr td{
     padding: 6px;
     text-align: center;
-   
+}
+.div1-bg{
+    background-image: url(../assets/images/spiral-bg.png);
+    background-repeat: no-repeat;
+    background-position-x:0rem;
+    background-position-y:-6rem;
+}
+.div2-bg{
+    background-image: url(../assets/images/spiral-bg.png);
+    background-repeat: no-repeat;
+    background-position-y:-6rem;
+    background-position-x:8rem;
+}
+.div3-bg{
+    background-image: url(../assets/images/spiral-bg.png);
+    background-repeat: no-repeat;
+    background-position-y:-13rem;
+    background-position-x:64rem;
 }
