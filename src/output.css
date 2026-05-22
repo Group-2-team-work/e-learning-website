@@ -19,8 +19,6 @@
     --color-white: #fff;
     --spacing: 0.25rem;
     --container-sm: 24rem;
-    --container-2xl: 42rem;
-    --container-3xl: 48rem;
     --container-5xl: 64rem;
     --container-7xl: 80rem;
     --text-sm: 0.875rem;
@@ -39,9 +37,6 @@
     --text-5xl--line-height: 1;
     --text-6xl: 3.75rem;
     --text-6xl--line-height: 1;
-    --text-7xl: 4.5rem;
-    --text-7xl--line-height: 1;
-    --font-weight-extralight: 200;
     --font-weight-medium: 500;
     --font-weight-semibold: 600;
     --font-weight-bold: 700;
@@ -223,9 +218,6 @@
   .top-2 {
     top: calc(var(--spacing) * 2);
   }
-  .top-10 {
-    top: calc(var(--spacing) * 10);
-  }
   .top-20 {
     top: calc(var(--spacing) * 20);
   }
@@ -267,9 +259,6 @@
   }
   .m-5 {
     margin: calc(var(--spacing) * 5);
-  }
-  .m-\[100px\] {
-    margin: 100px;
   }
   .m-auto {
     margin: auto;
@@ -316,9 +305,6 @@
   .mt-\[150px\] {
     margin-top: 150px;
   }
-  .mr-\[100px\] {
-    margin-right: 100px;
-  }
   .mb-2 {
     margin-bottom: calc(var(--spacing) * 2);
   }
@@ -342,12 +328,6 @@
   }
   .mb-\[200px\] {
     margin-bottom: 200px;
-  }
-  .ml-\[50px\] {
-    margin-left: 50px;
-  }
-  .ml-\[100px\] {
-    margin-left: 100px;
   }
   .ml-\[200px\] {
     margin-left: 200px;
@@ -565,9 +545,6 @@
   .gap-\[20px\] {
     gap: 20px;
   }
-  .gap-\[50px\] {
-    gap: 50px;
-  }
   .space-y-5 {
     :where(& > :not(:last-child)) {
       --tw-space-y-reverse: 0;
@@ -699,9 +676,6 @@
   .p-3 {
     padding: calc(var(--spacing) * 3);
   }
-  .p-16 {
-    padding: calc(var(--spacing) * 16);
-  }
   .px-2 {
     padding-inline: calc(var(--spacing) * 2);
   }
@@ -713,6 +687,12 @@
   }
   .px-6 {
     padding-inline: calc(var(--spacing) * 6);
+  }
+  .px-10 {
+    padding-inline: calc(var(--spacing) * 10);
+  }
+  .px-16 {
+    padding-inline: calc(var(--spacing) * 16);
   }
   .px-20 {
     padding-inline: calc(var(--spacing) * 20);
@@ -1313,9 +1293,6 @@
 }
 body {
   font-family: var(--font-Inter);
-  color: greeno;
-  padding-left: 2%;
-  padding-right: 2%;
 }
 nav ul li a:focus {
   color: #1A906B;
