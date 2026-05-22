@@ -27,10 +27,17 @@ table tr th, table tr td{
     background-image: url(../assets/images/spiral-bg.png);
     background-repeat: no-repeat;
     background-position-x:0rem;
+    background-position-y:-6rem;
 }
 .div2-bg{
     background-image: url(../assets/images/spiral-bg.png);
     background-repeat: no-repeat;
     background-position-y:-6rem;
-    background-position-x:-6rem;
+    background-position-x:8rem;
+}
+.div3-bg{
+    background-image: url(../assets/images/spiral-bg.png);
+    background-repeat: no-repeat;
+    background-position-y:-13rem;
+    background-position-x:64rem;
 }
