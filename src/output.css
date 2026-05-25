@@ -54,7 +54,6 @@
     --radius-lg: 0.5rem;
     --radius-xl: 0.75rem;
     --radius-2xl: 1rem;
-    --radius-3xl: 1.5rem;
     --default-transition-duration: 150ms;
     --default-transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
     --default-font-family: var(--font-sans);
@@ -274,23 +273,11 @@
   .mx-10 {
     margin-inline: calc(var(--spacing) * 10);
   }
-  .mx-30 {
-    margin-inline: calc(var(--spacing) * 30);
-  }
-  .mx-45 {
-    margin-inline: calc(var(--spacing) * 45);
-  }
-  .mx-50 {
-    margin-inline: calc(var(--spacing) * 50);
-  }
   .mx-\[100px\] {
     margin-inline: 100px;
   }
   .mx-auto {
     margin-inline: auto;
-  }
-  .my-2 {
-    margin-block: calc(var(--spacing) * 2);
   }
   .my-10 {
     margin-block: calc(var(--spacing) * 10);
@@ -370,9 +357,6 @@
   .inline-flex {
     display: inline-flex;
   }
-  .table {
-    display: table;
-  }
   .h-2 {
     height: calc(var(--spacing) * 2);
   }
@@ -439,9 +423,6 @@
   .w-16 {
     width: calc(var(--spacing) * 16);
   }
-  .w-50 {
-    width: calc(var(--spacing) * 50);
-  }
   .w-\[3vw\] {
     width: 3vw;
   }
@@ -450,12 +431,6 @@
   }
   .w-\[25\%\] {
     width: 25%;
-  }
-  .w-\[50\%\] {
-    width: 50%;
-  }
-  .w-\[50\] {
-    width: 50;
   }
   .w-\[60\%\] {
     width: 60%;
@@ -498,15 +473,6 @@
   }
   .max-w-sm {
     max-width: var(--container-sm);
-  }
-  .border-collapse {
-    border-collapse: collapse;
-  }
-  .transform {
-    transform: var(--tw-rotate-x,) var(--tw-rotate-y,) var(--tw-rotate-z,) var(--tw-skew-x,) var(--tw-skew-y,);
-  }
-  .resize {
-    resize: both;
   }
   .grid-cols-1 {
     grid-template-columns: repeat(1, minmax(0, 1fr));
@@ -589,9 +555,6 @@
   .gap-48 {
     gap: calc(var(--spacing) * 48);
   }
-  .gap-50 {
-    gap: calc(var(--spacing) * 50);
-  }
   .gap-\[20px\] {
     gap: 20px;
   }
@@ -618,29 +581,14 @@
   .rounded-2xl {
     border-radius: var(--radius-2xl);
   }
-  .rounded-3xl {
-    border-radius: var(--radius-3xl);
-  }
-  .rounded-\[2px\] {
-    border-radius: 2px;
-  }
   .rounded-\[6px\] {
     border-radius: 6px;
   }
   .rounded-\[10px\] {
     border-radius: 10px;
   }
-  .rounded-\[20px\] {
-    border-radius: 20px;
-  }
   .rounded-\[25px\] {
     border-radius: 25px;
-  }
-  .rounded-\[30px\] {
-    border-radius: 30px;
-  }
-  .rounded-\[40px\] {
-    border-radius: 40px;
   }
   .rounded-full {
     border-radius: calc(infinity * 1px);
@@ -737,9 +685,6 @@
   }
   .object-cover {
     object-fit: cover;
-  }
-  .p-0 {
-    padding: calc(var(--spacing) * 0);
   }
   .p-1 {
     padding: calc(var(--spacing) * 1);
@@ -888,17 +833,8 @@
   .text-\[2\.2rem\] {
     font-size: 2.2rem;
   }
-  .text-\[2\.5rem\] {
-    font-size: 2.5rem;
-  }
-  .text-\[2\.8rem\] {
-    font-size: 2.8rem;
-  }
   .text-\[2rem\] {
     font-size: 2rem;
-  }
-  .text-\[3rem\] {
-    font-size: 3rem;
   }
   .text-\[10px\] {
     font-size: 10px;
@@ -930,10 +866,6 @@
   .text-\[34px\] {
     font-size: 34px;
   }
-  .leading-1 {
-    --tw-leading: calc(var(--spacing) * 1);
-    line-height: calc(var(--spacing) * 1);
-  }
   .leading-4 {
     --tw-leading: calc(var(--spacing) * 4);
     line-height: calc(var(--spacing) * 4);
@@ -949,10 +881,6 @@
   .leading-10 {
     --tw-leading: calc(var(--spacing) * 10);
     line-height: calc(var(--spacing) * 10);
-  }
-  .leading-13 {
-    --tw-leading: calc(var(--spacing) * 13);
-    line-height: calc(var(--spacing) * 13);
   }
   .leading-16 {
     --tw-leading: calc(var(--spacing) * 16);
@@ -1061,9 +989,6 @@
   .text-\[\#daa520\] {
     color: #daa520;
   }
-  .text-\[2\] {
-    color: 2;
-  }
   .text-black {
     color: var(--color-black);
   }
@@ -1107,18 +1032,9 @@
       --tw-shadow-color: color-mix(in oklab, var(--color-gray-500) var(--tw-shadow-alpha), transparent);
     }
   }
-  .outline {
-    outline-style: var(--tw-outline-style);
-    outline-width: 1px;
-  }
   .outline-0 {
     outline-style: var(--tw-outline-style);
     outline-width: 0px;
-  }
-  .transition {
-    transition-property: color, background-color, border-color, outline-color, text-decoration-color, fill, stroke, --tw-gradient-from, --tw-gradient-via, --tw-gradient-to, opacity, box-shadow, transform, translate, scale, rotate, filter, -webkit-backdrop-filter, backdrop-filter, display, content-visibility, overlay, pointer-events;
-    transition-timing-function: var(--tw-ease, var(--default-transition-timing-function));
-    transition-duration: var(--tw-duration, var(--default-transition-duration));
   }
   .transition-colors {
     transition-property: color, background-color, border-color, outline-color, text-decoration-color, fill, stroke, --tw-gradient-from, --tw-gradient-via, --tw-gradient-to;
@@ -1363,28 +1279,10 @@
       font-size: 52px;
     }
   }
-  .md\:leading-1 {
-    @media (width >= 48rem) {
-      --tw-leading: calc(var(--spacing) * 1);
-      line-height: calc(var(--spacing) * 1);
-    }
-  }
-  .md\:leading-10 {
-    @media (width >= 48rem) {
-      --tw-leading: calc(var(--spacing) * 10);
-      line-height: calc(var(--spacing) * 10);
-    }
-  }
   .md\:leading-11 {
     @media (width >= 48rem) {
       --tw-leading: calc(var(--spacing) * 11);
       line-height: calc(var(--spacing) * 11);
-    }
-  }
-  .md\:leading-13 {
-    @media (width >= 48rem) {
-      --tw-leading: calc(var(--spacing) * 13);
-      line-height: calc(var(--spacing) * 13);
     }
   }
   .md\:leading-14 {
@@ -1476,6 +1374,11 @@
   .lg\:p-\[80px\] {
     @media (width >= 64rem) {
       padding: 80px;
+    }
+  }
+  .lg\:px-5 {
+    @media (width >= 64rem) {
+      padding-inline: calc(var(--spacing) * 5);
     }
   }
   .lg\:px-8 {
@@ -1598,26 +1501,6 @@ table tr th, table tr td {
 .read-more:hover {
   text-decoration: underline;
 }
-@property --tw-rotate-x {
-  syntax: "*";
-  inherits: false;
-}
-@property --tw-rotate-y {
-  syntax: "*";
-  inherits: false;
-}
-@property --tw-rotate-z {
-  syntax: "*";
-  inherits: false;
-}
-@property --tw-skew-x {
-  syntax: "*";
-  inherits: false;
-}
-@property --tw-skew-y {
-  syntax: "*";
-  inherits: false;
-}
 @property --tw-space-y-reverse {
   syntax: "*";
   inherits: false;
@@ -1717,11 +1600,6 @@ table tr th, table tr td {
 @layer properties {
   @supports ((-webkit-hyphens: none) and (not (margin-trim: inline))) or ((-moz-orient: inline) and (not (color:rgb(from red r g b)))) {
     *, ::before, ::after, ::backdrop {
-      --tw-rotate-x: initial;
-      --tw-rotate-y: initial;
-      --tw-rotate-z: initial;
-      --tw-skew-x: initial;
-      --tw-skew-y: initial;
       --tw-space-y-reverse: 0;
       --tw-border-style: solid;
       --tw-leading: initial;
